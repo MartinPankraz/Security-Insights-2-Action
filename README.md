@@ -12,6 +12,8 @@ In this hands-on session you will embark on a journey to design followup activit
 
 ## 🧙🏾‍♀️Epic Quests
 
+Before you go: verify [prerequisites](PREREQUISITES.md) are met (backpack, lunch box, good-bye kiss, haunted jewelry, etc.)
+
 0. [The Journey](student/quest0.md) - Where will those quests take us
 1. [Novice's path](student/quest1.md) - 
 2. [Apprentice's curious road](student/quest2.md) - 
