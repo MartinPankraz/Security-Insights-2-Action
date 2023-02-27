@@ -35,7 +35,8 @@ This repos encourages contributions and feedback via the [GitHub Issues](https:/
 
 ## 🚸 Adventure Guides [🔗](mentor/quest1.md)
 
-- [Holger Bruchelt - Microsoft](https://www.linkedin.com/in/holger-bruchelt/)
-- [Martin Pankraz - Microsoft](https://www.linkedin.com/in/martin-pankraz/)
-- [Sebastian Ulrich - Microsoft](https://www.linkedin.com/in/sebastian-ullrich-677b36168/)
-- [Martin Steiner - Microsoft](https://www.linkedin.com/in/martin-steiner-28312b141/)
+- [Holger Bruchelt - Microsoft Engineering](https://www.linkedin.com/in/holger-bruchelt/)
+- [Martin Pankraz - Microsoft Engineering](https://www.linkedin.com/in/martin-pankraz/)
+- [Ofer Inbar - Microsoft Sentinel Engineering](https://www.linkedin.com/in/martin-pankraz/)
+- [Sebastian Ulrich - Microsoft Cloud Solution Architect](https://www.linkedin.com/in/sebastian-ullrich-677b36168/)
+- [Martin Steiner - Microsoft Security Cloud Solution Architect](https://www.linkedin.com/in/martin-steiner-28312b141/)
