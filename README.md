@@ -10,7 +10,7 @@ The ability to detect suspicious activity automatically and timely react on them
 
 ## 🔭 Introduction
 
-In this hands-on session you will embark on a journey to design followup activities based on raised security incident from SAP S4. You will learn how to use Azure Sentinel to detect suspicious activity and how to automate the locking of users in SAP systems and Azure AD.
+In this hands-on session you will embark on a journey to design followup activities based on raised security incidents from SAP S/4HANA. You will learn how to use Azure Sentinel to detect suspicious activity and how to automate the locking of users in SAP systems and Azure AD.
 
 ## 🧙🏾‍♀️Epic Quests
 
