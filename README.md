@@ -1,4 +1,4 @@
-# 🕵️ Security-Insights 2 Action 🚀 - Automatic locking of users on suspicious activity in SAP systems
+# 🕵️ Security-Insights 2 Action with SOAR 🚀 - Automatic locking of users on suspicious activity in SAP systems
 
 🚧Under construction 🚧
 
@@ -6,7 +6,7 @@
 
 Security incidents affect every company at some point. Given the threat landscape: It is **not** a question of **if but when**. According to [Statista 2022](https://www.statista.com/statistics/1275029/length-of-downtime-after-ransomware-attack/) the average downtime duration increases year over year and circles around 22 days. That is enough for some companies to suffer considerable damage or even go out of business. **SAP systems are a prime target** for cyber attackers.
 
-The ability to detect suspicious activity and timely react on them is key to reduce damage.
+The ability to detect suspicious activity automatically and timely react on them is key to reduce damage. This practice is called `Security Orchestration, Automation and Response (SOAR)`.
 
 ## 🔭 Introduction
 
