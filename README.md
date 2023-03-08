@@ -29,7 +29,7 @@ Before you go: verify [prerequisites](PREREQUISITES.md) are met (backpack, lunch
 - [Ransomware struck on-premises but Azure Cloud survived | a customer story](https://customers.microsoft.com/en-us/story/1512571257640211870-campari-group-consumer-goods-sap-on-azure)
 - [Get started with SAP and Azure integration scenarios](https://learn.microsoft.com/azure/sap/workloads/integration-get-started)
 - [Microsoft Sentinel solution for SAP® applications: security content reference](https://learn.microsoft.com/azure/sentinel/sap/sap-solution-security-content)
-- Adaptive [Card Desginer](https://adaptivecards.io/designer/) and [Schema explorer](https://adaptivecards.io/explorer/AdaptiveCard.html)
+- Adaptive [Card Desginer](https://adaptivecards.io/designer/), the [Schema explorer](https://adaptivecards.io/explorer/AdaptiveCard.html), and the [templating language](https://learn.microsoft.com/adaptive-cards/templating/language)
 - [Kusto Query Language Overview](https://learn.microsoft.com/azure/data-explorer/kusto/query/)
 - [Kusto Query learning exercise - Data Detective](https://detective.kusto.io/)
 - [Connect to SAP RFCs/BAPIs from workflows in Azure Logic Apps](https://learn.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector)
