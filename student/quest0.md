@@ -17,51 +17,29 @@ Our journey will start from a sensitive transaction code - **SE80** - in the SAP
 ## Meet your Mentors, learn more about the journey and kick-off
 
 🌟
-🕒 30 mins
+🕒 20 mins
 
-## [Quest 1](quest1.md) - 
+## [Quest 1](quest1.md): Novice's path - Raise an incident in Microsoft Sentinel and investigate the incident details
 
-🌟🌟🌟🌟
-🕒 1 h
+🌟
+🕒 20 mins
 
-AAA
+## [Quest 2](quest2.md): Apprentice's curious road - Associate an automated response with your incident from SAP
 
-## [Quest 2](quest2.md) - 
-
-🌟🌟🌟
-🕒 45 mins
-
-AAA
+🌟🌟
+🕒 10 mins
 
 ⏳Take a natural break here if suitable.
 
-## [Quest 3](quest3.md) - 
+## [Quest 3](quest3.md): Debutant's journey - Adjust the workflow blueprint to block the user in SAP
 
-🌟🌟🌟🌟
-🕒 1,5 h
+🌟🌟🌟
+🕒 20 mins
 
-AAA
-
-## [Quest 4](quest4.md) - 
+## [Quest 4](quest4.md): Master's trail - Go all in and add Azure AD user locking
 
 🌟
-🕒 30 mins
-
-AAA
-
-## [Quest 5](quest5.md) - 
-
-🌟🌟
-🕒 1 h
-
-AAA
-
-## [Quest 6](quest6.md) - 
-
-🌟
-🕒 30 mins
-
-AAA
+🕒 10 mins
 
 ## Where to next?
 
