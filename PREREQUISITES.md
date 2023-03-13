@@ -10,11 +10,17 @@
 
 - Ensure availability of the [On-premises data Gateway](https://www.microsoft.com/download/details.aspx?id=53127) with access to the SAP S/4HANA System. This is required to access RFC/BAPIs in the SAP system behind your firewall. In our case we have installed the required tools on the "Windows Remote Desktop" of the SAP S/4HANA 2022, Fully-Activated Appliance CAL system
 
-## Additional preparations (already done for a hosted Developer Day)
+## Additional preparations (already done for a hosted Hands-On sessions)
 
 - Install the On-prem data Gateway with access to the SAP S/4HANA System. This is required to access RFC/BAPIs in the SAP system behind your firewall. In our case we have installed the required tools on the "Windows Remote Desktop" of the SAP S/4HANA 2022, Fully-Activated Appliance CAL system
 
-### Configuration on the Azure Subscription
+## Configuration on the Azure Subscription
+
+### Create a new Azure Sentinel Workspace
+
+Maintain the SAP Watchlist in Azure Sentinel. To do so, we need to create a new Azure Sentinel Workspace.
+
+### Configure SAP and the Microsoft Sentinel Collector
 
 ### Downloading required files
 
