@@ -1,9 +1,13 @@
-# Quest 4 - Accountant's detour
+# Quest 4 - Master's trail
 
-[< Quest 3](quest3.md) - **[🏠Home](../README.md)** - [ Quest 5 >](quest5.md)
+[< Quest 3](quest3.md) - **[🏠Home](../README.md)**
 
 🌟
-🕒 30 mins
+🕒 10 mins
+
+## Introduction
+
+Our SAP security folks need more power! In this section we will enhance the playbook and expand the user locking scope to Azure AD. After all shutting that suspicious user out on SAP is not enough. We need to make sure that the user is locked out of all the systems that the user has access to.
 
 ## Video guide provided by our Mentors
 
@@ -19,6 +23,6 @@ The video shall provide hints where lore, poetic code snippets, and narrative ca
 
 ## Where to next?
 
-[< Quest 3](quest3.md) - **[🏠Home](../README.md)** - [ Quest 5 >](quest5.md)
+[< Quest 3](quest3.md) - **[🏠Home](../README.md)**
 
 [🔝](#)

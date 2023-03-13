@@ -2,32 +2,17 @@
 
 **[🏠Home](../README.md)** - [ Quest 1 >](quest1.md)
 
-Our journey will start from 
+Our journey will start from a sensitive transaction code - **SE80** - in the SAP backend. From there, your actions will be continuously audited by Microsoft Sentinel. SE80 is maintained on the Sentinel watchlist **SAP - Sensitive Transactions**. To be able to react on such suspicious activities, we will associate a **playbook** that will send an adaptive card to the SAP Security teams offering the option to immediately block the respective user on the SAP backend. The card will contain the details of the suspicious activity, the transaction, and the user details who executed it. The security administrator will then be able to take the appropriate action.
 
 > **Note**:
 
 >🏋🏽‍♂️**Difficulty meter** (1 star = walk in the park | 5 stars = squeeze your brains out ): 🌟🌟🌟🌟🌟
 
->⏱Allow ~6 hours to complete your journey
-
-> Be aware of the collapsed code blocks that kick start your challenges throughout your adventurer's path. They look like this
-> <details><summary><strong>⤵️AdaptiveCard code block</strong></summary>
-> ```json
-> {}
-> ```
-> </details>
+>⏱Allow ~1h to complete your journey
 
 > **Warning**: The guide and screenshots refer to the English terms. We recommend to **adjust your browser language to English** to avoid confusion. Some of the translated texts can be misleading. For instance "Parse JSON" translates to "JSON analysieren" in German. The icons in Logic Apps etc. stay the same and can serve as visual reference if you get lost.
 
 ## Video guide provided by our Mentors
-
-<p align="center" width="100%">
-    <a href="https://youtu.be/quXfEzpDp6k" target="_blank" rel="noopener noreferrer">
-        <img alt="Walkthrough video link" src="../img/student/Quest0/youtube-teaser.png"  width="800">
-    </a>
-</p>
-
-The video shall provide hints where lore, poetic code snippets, and narrative cannot.
 
 ## Meet your Mentors, learn more about the journey and kick-off
 

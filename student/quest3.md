@@ -2,8 +2,12 @@
 
 [< Quest 2](quest2.md) - **[🏠Home](../README.md)** - [ Quest 4 >](quest4.md)
 
-🌟🌟🌟🌟
-🕒 1,5 h
+🌟🌟🌟
+🕒 20 mins
+
+## Introduction
+
+In this section we will tailor the playbook to our needs and adjust the properties of the adaptive card to include the SAP user and transaction code.
 
 ## Video guide provided by our Mentors
 
