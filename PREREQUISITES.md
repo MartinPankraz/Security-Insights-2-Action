@@ -8,8 +8,6 @@
 
 > **Note** - have a look at [this document](RequestMS365Developer.pdf) for additional guidance for the M365 Dev Program sign-up process.
 
-- Ensure availability of the [On-premises data Gateway](https://www.microsoft.com/download/details.aspx?id=53127) with access to the SAP S/4HANA System. This is required to access RFC/BAPIs in the SAP system behind your firewall. In our case we have installed the required tools on the "Windows Remote Desktop" of the SAP S/4HANA 2022, Fully-Activated Appliance CAL system
-
 ## Additional preparations (already done for a hosted Hands-On sessions)
 
 - Install the On-prem data Gateway with access to the SAP S/4HANA System. This is required to access RFC/BAPIs in the SAP system behind your firewall. In our case we have installed the required tools on the "Windows Remote Desktop" of the SAP S/4HANA 2022, Fully-Activated Appliance CAL system
@@ -22,24 +20,25 @@ Maintain the SAP Watchlist in Azure Sentinel. To do so, we need to create a new 
 
 ### Configure SAP and the Microsoft Sentinel Collector
 
-### Downloading required files
+Use the [official documentation](https://learn.microsoft.com/azure/sentinel/sap/deployment-overview).
 
-- Download the [On-premises data gateway](https://www.microsoft.com/download/details.aspx?id=53127); Similar like the SAP Cloud Connector the On-premises data gateway can establish a connection from systems behind your firewall to Azure.
-- Download the [SAP .Net Connector](https://support.sap.com/en/product/connectors/msnet.html). Preferably select the **NCo 3.0**, Complied with .NET Framework 4. You need an S-User to sign-in and download this file.
+### Spin up and configure Azure API Management for SAP SOAP
 
-## Installing  SAP .Net Connector
+- Create and activate an enterprise service from the SAP function module BAPI_USER_LOCK and BAPI_USER_UNLOCK. Blogs like [this](https://www.saptechnicalguru.com/interfacing-exposing-web-services/) might help with the setup.
+- Generate the SOAP service binding via SOAMANAGER in SAP and save the WSDL to a file.
+- Import the WSDL into your Azure API Management instance, choose Interface `your maintained SOAP binding name` and maintain import method `SOAP to REST`.
 
-Start by installing the SAP .Net Connector. Just launch the SapNCox64Setup setup from the downloaded ZIP file and complete the installation.
+> **Warning**: Some SOAP services and their WSDL's contain incompatible attributes like `wsp:Policy`. You need to drop them from the WSDL before you are able to import.
 
-## Installing the On-premises data gateway
+- Consider simplifying the SOAP body in your API Management Design view. We recommend dropping all entities from the inbound section except
 
-Run the GatewayInstall installation file previously downloaded. In the last step you need to sign-in with your Azure Active Directory users (that is also used for your Azure subscription, so that we can later also use Logic Apps). Please make sure that during the installation you specify the Azure region from which you will also use your Logic Apps later on in the Azure subscription.
-
-<p align="center" width="100%">
-<img alt="OPDG Select region" src="img/student/Quest0/OPDG-Region.jpg"  width="600">
-</p>
-
-> **Note** - You might need to up the .NET Framework to the latest version (in case of the CAL images, an update to .NET Framework 4.8 is required). The easiest way is to do this using the [.NET Framework 4.8 Web Installer](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer)
+```xml
+<urn:BAPI_USER_LOCK>
+    <RETURN>
+    </RETURN>
+    <USERNAME>{{body.bAPI_USER_LOCK.uSERNAME}}</USERNAME>
+</urn:BAPI_USER_LOCK>
+```
 
 ## Where to next?
 
