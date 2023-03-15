@@ -28,14 +28,14 @@ See the desired solution in action and put your mind to solving the challenge.
 🌟
 🕒 20 mins
 
-Raise an incident in Microsoft Sentinel and investigate the incident details
+Raise an incident in Microsoft Sentinel, investigate the incident details, and apply an automation rule
 
 ## [Quest 2](quest2.md): Apprentice's curious road
 
 🌟🌟
 🕒 10 mins
 
-Associate an automated response with your incident from SAP
+Understand the workflow and see the `SAP user blocking` in action
 
 ⏳Take a natural break here if suitable.
 
@@ -44,7 +44,7 @@ Associate an automated response with your incident from SAP
 🌟🌟🌟
 🕒 20 mins
 
-Adjust the workflow blueprint to block the user in SAP
+Adjust the workflow blueprint to add the transaction code to the Microsoft Teams message
 
 ## [Quest 4](quest4.md): Master's trail
 

@@ -11,7 +11,7 @@ In this section we will work with your playbook assigned to your "personal SAP i
 
 ## The path
 
-1. Navigate to the resource group [`rg-demo-eunorth`](https://portal.azure.com/#@cloud.boban.co/resource/subscriptions/29198fb7-1044-4412-8cab-a054d04cb6f5/resourceGroups/dsag-participants/overview) and find your Logic App (or in other words Sentinel playbook). The name contains your user name.
+1. Navigate to the resource group [`rg-demo-eunorth`](https://portal.azure.com/#@cloud.boban.co/resource/subscriptions/29198fb7-1044-4412-8cab-a054d04cb6f5/resourceGroups/dsag-participants/overview) or choose [`Active Playbooks`](https://portal.azure.com/#view/Microsoft_Azure_Security_Insights/MainMenuBlade/~/Automation/id/%2Fsubscriptions%2F29198fb7-1044-4412-8cab-a054d04cb6f5%2Fresourcegroups%2Frg-demo-eunorth%2Fproviders%2Fmicrosoft.securityinsightsarg%2Fsentinel%2Fsen-demo-eunorth-001) from the Automation pane in Sentinel to find your Logic App (or in other words Sentinel playbook). The instance name contains your user name.
 
 2. Familiarize yourself with the playbook and its various steps. Are you able to identify how the SAP user lock request is submitted to SAP?
 
@@ -27,7 +27,7 @@ In this section we will work with your playbook assigned to your "personal SAP i
 
 6. Find the adaptive card posted to your Teams Channel and click on the `Lock SAP User` button.
 
-> **Info** - Optionally see the [Outlook message](https://outlook.office.com/mail/) informing about and linking to the Microsoft Teams message.
+> **Note** - Optionally see the [Outlook message](https://outlook.office.com/mail/) informing about and linking to the Microsoft Teams message.
 
 <p align="center" width="100%">
 <img alt="Connection Details" src="../img/student/Quest2/submit-lock.png"  width="600">
@@ -35,7 +35,7 @@ In this section we will work with your playbook assigned to your "personal SAP i
 
 7. You will see the adaptive card change. Shortly after a message from SAP will be posted as reply to your initial block request in the same Teams thread.
 
-> **Info** - you may follow the detailed execution steps from your Logic App's `Runs history`. Navigate to the Overview pane and choose the ribbon 'Runs history'.
+> **Note** - you may follow the detailed execution steps from your Logic App's `Runs history`. Navigate to the Overview pane and choose the ribbon 'Runs history'.
 
 8. Verify that you locked the SAP backend user that caused the incident (yourself 😉 in this case) by trying to log in via the [SAP WebGUI](https://51.137.42.4:44300/sap/bc/gui/sap/its/webgui?sap-client=001&sap-language=EN). And don't worry we posted the unlock option via Teams too.
 

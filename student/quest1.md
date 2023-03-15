@@ -46,7 +46,9 @@ This way only your individual interactions will be pushed to your personal workf
 <img alt="Connection Details" src="../img/student/Quest1/assign-playbook.png"  width="800">
 </p>
 
-> **Info** - Above screenshot shows the base flow used to create your playbook copies to isolate your work environment on this shared tenant used for the hands-on exercises.
+> **Note** - Above screenshot shows the base flow used to create your playbook copies to isolate your work environment on this shared tenant used for the hands-on exercises.
+
+Click apply.
 
 ## Where to next?
 

@@ -18,8 +18,8 @@ Before you go: verify [prerequisites](PREREQUISITES.md) are met (backpack, lunch
 
 0. [The Journey](student/quest0.md) - Where will those quests take us
 1. [Novice's path](student/quest1.md) - Raise an incident in Microsoft Sentinel and investigate the incident details
-2. [Apprentice's curious road](student/quest2.md) - Associate an automated response with your incident from SAP
-3. [Debutant's journey](student/quest3.md) - Adjust the workflow blueprint to block the user in SAP
+2. [Apprentice's curious road](student/quest2.md) - Understand the workflow and see the `SAP user blocking` in action
+3. [Debutant's journey](student/quest3.md) - Adjust the workflow blueprint to add the transaction code to the Microsoft Teams message
 4. [Master's trail](student/quest4.md) - Go all in and add Azure AD user locking
 
 ## ✨Recommended courses and further learning
