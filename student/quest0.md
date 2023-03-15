@@ -42,7 +42,7 @@ Understand the workflow and see the `SAP user blocking` in action
 ## [Quest 3](quest3.md): Debutant's journey
 
 🌟🌟🌟
-🕒 20 mins
+🕒 15 mins
 
 Adjust the workflow blueprint to add the transaction code to the Microsoft Teams message
 

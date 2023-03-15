@@ -28,7 +28,7 @@ Can you learn anything from the description, evidence, and the related entities?
 
 Can you find the latest update time for the SAP Audit Log?
 
-Open the Connectors page (Configuration -> Data Connectors), click on the `Microsoft Sentinel for SAP` connector, and navigate from `Open Connector Page`. 
+Open the Connectors page (Configuration -> Data Connectors), click on the `Microsoft Sentinel for SAP` connector, and navigate from `Open Connector Page`.
 
 Continue to the watchlist section under Configuration, identify the relevant list to learn which transaction codes are currently considered sensitive. Use the button `View in Logs` to expand values.
 
