@@ -28,7 +28,7 @@ Incident collection runs every 5 minutes, so you will be investigating another r
 <img alt="Connection Details" src="../img/student/Quest1/sentinel-main.png"  width="800">
 </p>
 
-Find your way to the [shared Sentinel instance](https://portal.azure.com/?feature.customportal=false#view/Microsoft_Azure_Security_Insights/MainMenuBlade/~/6/id/%2Fsubscriptions%2F29198fb7-1044-4412-8cab-a054d04cb6f5%2Fresourcegroups%2Frg-demo-eunorth%2Fproviders%2Fmicrosoft.securityinsightsarg%2Fsentinel%2Fsen-demo-eunorth-001) using your given M365 user and navigate to the **Incidents** tab. You should see incident with id `1` raised by the SAP System `Q01`. Click on the incident (View full details) to see the details and identify which SAP user and which transaction caused it.
+Find your way to the [shared Sentinel instance](https://portal.azure.com/?feature.customportal=false#view/Microsoft_Azure_Security_Insights/MainMenuBlade/~/6/id/%2Fsubscriptions%2F29198fb7-1044-4412-8cab-a054d04cb6f5%2Fresourcegroups%2Frg-demo-eunorth%2Fproviders%2Fmicrosoft.securityinsightsarg%2Fsentinel%2Fsen-demo-eunorth-001) using your given M365 user and navigate to the **Incidents** tab. Adjust the filter to `last 7 days`. You should now see the incident with id `24` raised by the SAP System `Q01`. Click on the incident (View full details) to see the details and identify which SAP user and which transaction caused it.
 
 > **Note**:
 > If you are getting a security error, make sure that you are in the right Azure Directory. Click on the your user symbol on the top right and click on `Switch directory`
@@ -36,7 +36,7 @@ Find your way to the [shared Sentinel instance](https://portal.azure.com/?featur
 <img alt="Switch Directory" src="../img/student/Quest1/SwitchDirectory.png"  width="800">
 </p>
 
-On the line with `Contoso (cloud.boban.co)` click on Switch and try again. 
+On the line with `Contoso (cloud.boban.co)` click on Switch and try again.
 <p align="center" width="100%">
 <img alt="Switch Directory" src="../img/student/Quest1/SwitchDirectory2.png"  width="800">
 </p>
@@ -55,7 +55,7 @@ By now your own personal incident should have arrived. Navigate to it and select
 <img alt="Connection Details" src="../img/student/Quest1/create-automation-rule.png"  width="800">
 </p>
 
-Choose your incident name, your SAP backend user name (e.g. DSAG01), and SID (Cloud App name) as condition for your rule. Finally add your playbook (or in other words Azure Logic App) under the "Actions" section. Your playbook has again your user name in the name.
+Choose your incident name, your account name (e.g. dsag01@M365B596876.onmicrosoft.com), and SID (Cloud App name) as condition for your rule. Finally add your playbook (or in other words Azure Logic App) under the "Actions" section. Your playbook has again your user name in the name.
 
 This way only your individual interactions will be pushed to your personal workflow and Teams Channel.
 
