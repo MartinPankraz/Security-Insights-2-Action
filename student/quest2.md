@@ -13,7 +13,9 @@ In this section we will work with your playbook assigned to your "personal SAP i
 
 1. Navigate to the resource group [`dsag-participants`](https://portal.azure.com/#@cloud.boban.co/resource/subscriptions/29198fb7-1044-4412-8cab-a054d04cb6f5/resourceGroups/dsag-participants/overview) or choose [`Active Playbooks`](https://portal.azure.com/#view/Microsoft_Azure_Security_Insights/MainMenuBlade/~/Automation/id/%2Fsubscriptions%2F29198fb7-1044-4412-8cab-a054d04cb6f5%2Fresourcegroups%2Frg-demo-eunorth%2Fproviders%2Fmicrosoft.securityinsightsarg%2Fsentinel%2Fsen-demo-eunorth-001) from the Automation pane in Sentinel to find your Logic App (or in other words Sentinel playbook). The instance name contains your user name.
 
-2. Familiarize yourself with the playbook and its various steps. Are you able to identify how the SAP user lock request is submitted to SAP?
+2. Familiarize yourself with the playbook and its various steps. Are you able to identify how the SAP user lock request is submitted to SAP? What Teams Channel ID is being used?
+
+> **Note**: The Microsoft Teams connector supports dynamic dropdowns showing the names of your Teams team and channel. However, for maintenance and good design practice on the Logic App we chose to use variables for re-usability. This way you may change the target channel for all occurrences of the Teams task on the Logic App in one place. You may retrieve the IDs from Teams via the three dots ... and `Get link to team`, `Get link to channel` or from the URL once you navigated there.
 
 3. Open a new tab and navigate to [teams.microsoft.com](https://teams.microsoft.com/_#/conversations/General?threadId=19:KonRsOls_Pbe9OCeWzF68sAdhZURrmvq0i6CWLsRFWs1@thread.tacv2&ctx=channel), login with your given M365 sandbox user (e.g. dsag01@M365B596876.onmicrosoft.com) and find your Teams Channel within the team `DSAG Hands-On Session 1`. Your incident notifications from Sentinel will show up here.
 
