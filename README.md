@@ -22,6 +22,8 @@ Before you go: verify [prerequisites](PREREQUISITES.md) are met (backpack, lunch
 3. [Debutant's journey](student/quest3.md) - Adjust the workflow blueprint to add the transaction code to the Microsoft Teams message
 4. [Master's trail](student/quest4.md) - Go all in and add Azure AD user locking
 
+🏆Finish the final quest, collect the pass phrase, and redeem it to [claim your badge](https://webhostingforconverter.z16.web.core.windows.net/claim-reward.html) 😎
+
 ## ✨Recommended courses and further learning
 
 ### Applied security science

@@ -17,7 +17,7 @@ Our SAP security folks need more power! In this section we will enhance the play
 
 If you succeed you successfully locked yourself out and threw away the 🗝️. Well done!
 
-Claim your badge [here](https://webhostingforconverter.z16.web.core.windows.net/claim-reward.html).
+🏆Finish the final quest, collect the pass phrase, and redeem it to [claim your badge](https://webhostingforconverter.z16.web.core.windows.net/claim-reward.html) 😎
 
 ## Where to next?
 
