@@ -35,12 +35,12 @@ In this section we will work with your playbook assigned to your "personal SAP i
 
 7. You will see the adaptive card change. Shortly after a message from SAP will be posted as reply to your initial block request in the same Teams thread.
 
-> **Note** - you may follow the detailed execution steps from your Logic App's `Runs history`. Navigate to the Overview pane and choose the ribbon 'Runs history'.
+> **Note** - you may follow the detailed execution steps from your Logic App's `Runs history`. Navigate to the Overview pane and choose the ribbon `Runs history`.
 
 8. Verify that you locked the SAP backend user that caused the incident (yourself 😉 in this case) by trying to log in via the [SAP WebGUI](https://51.137.42.4:44300/sap/bc/gui/sap/its/webgui?sap-client=001&sap-language=EN). And don't worry we posted the unlock option via Teams too.
 
 <p align="center" width="100%">
-<img alt="Connection Details" src="../img/student/Quest2/locked-user.png"  width="600">
+<img alt="Connection Details" src="../img/student/Quest2/locked-user.png"  width="300">
 </p>
 
 ## Where to next?
