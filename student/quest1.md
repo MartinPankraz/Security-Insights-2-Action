@@ -11,10 +11,10 @@ In this section we will raise an incident in Microsoft Sentinel by navigating to
 
 ## The path
 
-Use the [SAP WebGUI<sup>1</sup>](https://51.137.42.4:44300/sap/bc/gui/sap/its/webgui?sap-client=001&sap-language=EN) to connect to the provided SAP system with your given user (ignore certificate warning and proceed to the website). The navigation bar and the prompt `SE80` (or the respective menu entry) get the scenario started.
+Use the [SAP WebGUI<sup>1</sup>](https://51.137.42.4:44300/sap/bc/gui/sap/its/webgui?sap-client=001&sap-language=EN) to connect to the provided SAP system with your given user (ignore certificate warning and proceed to the website). From the SAP Menu, select `Create Incident` which will start `SE80` and gets the scenario started. 
 
 <p align="center" width="100%">
-<img alt="Connection Details" src="../img/student/Quest1/webgui.png"  width="800">
+<img alt="Create Incident" src="../img/student/Quest1/CreateIncident.png"  width="800">
 </p>
 
 Incident collection runs every 5 minutes, so you will be investigating another recent incident till your own personal one arrives to familiarize yourself with the process.
