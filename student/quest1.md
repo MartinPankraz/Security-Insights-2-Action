@@ -41,7 +41,6 @@ On the line with `Contoso (cloud.boban.co)` click on Switch and try again.
 <img alt="Switch Directory" src="../img/student/Quest1/SwitchDirectory2.png"  width="800">
 </p>
 
-
 Can you learn anything from the description, evidence, and the related entities?
 
 Can you find the latest update time for the SAP Audit Log?
