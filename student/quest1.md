@@ -33,7 +33,7 @@ Find your way to the [shared Sentinel instance](https://portal.azure.com/?featur
 > **Note**:
 > If you are getting a security error, make sure that you are in the right Azure Directory. Click on the your user symbol on the top right and click on `Switch directory`
 <p align="center" width="100%">
-<img alt="Switch Directory" src="../img/student/Quest1/SwitchDirectory"  width="800">
+<img alt="Switch Directory" src="../img/student/Quest1/SwitchDirectory.png"  width="800">
 </p>
 
 On the line with `Contoso (cloud.boban.co)` click on Switch and try again. 
