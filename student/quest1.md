@@ -29,6 +29,18 @@ Use the [SAP WebGUI<sup>1</sup>](https://51.137.42.4:44300/sap/bc/gui/sap/its/we
 
 Find your way to the [shared Sentinel instance](https://portal.azure.com/?feature.customportal=false#view/Microsoft_Azure_Security_Insights/MainMenuBlade/~/6/id/%2Fsubscriptions%2F29198fb7-1044-4412-8cab-a054d04cb6f5%2Fresourcegroups%2Frg-demo-eunorth%2Fproviders%2Fmicrosoft.securityinsightsarg%2Fsentinel%2Fsen-demo-eunorth-001) using your given M365 user and navigate to the **Incidents** tab. You should see incident with id `1` raised by the SAP System `Q01`. Click on the incident (View full details) to see the details and identify which SAP user and which transaction caused it.
 
+> **Note**:
+> If you are getting a security error, make sure that you are in the right Azure Directory. Click on the your user symbol on the top right and click on `Switch directory`
+<p align="center" width="100%">
+<img alt="Switch Directory" src="../img/student/Quest1/SwitchDirectory"  width="800">
+</p>
+
+On the line with `Contoso (cloud.boban.co)` click on Switch and try again. 
+<p align="center" width="100%">
+<img alt="Switch Directory" src="../img/student/Quest1/SwitchDirectory2.png"  width="800">
+</p>
+
+
 Can you learn anything from the description, evidence, and the related entities?
 
 Can you find the latest update time for the SAP Audit Log?
