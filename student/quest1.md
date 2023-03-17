@@ -56,7 +56,7 @@ By now your own personal incident should have arrived. Navigate to it and select
 <img alt="Connection Details" src="../img/student/Quest1/create-automation-rule.png"  width="800">
 </p>
 
-Choose your incident name, your SAP backend user name (e.g. DSAG01), and SID (Cloud App name) as condition for your rule. Finally add your playbook (or in other words Azure Logic App) under the "Actions" section. Your playbook has again your user name in the name.
+Choose your incident name, your SAP backend user name (e.g. DSAG01) as condition for your rule. Finally add your playbook (or in other words Azure Logic App) under the "Actions" section. Your playbook has again your user name in the name.
 
 This way only your individual interactions will be pushed to your personal workflow and Teams Channel.
 
