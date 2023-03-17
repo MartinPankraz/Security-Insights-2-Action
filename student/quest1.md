@@ -58,7 +58,7 @@ Can you find the latest update time for the SAP Audit Log?
 
 By now your own personal incident should have arrived.
 
-5. Navigate to it and select `Create Automation Rule`.
+5. Navigate to it and select `Create Automation Rule` in the Actions dropdown.
 
 <p align="center" width="100%">
 <img alt="Connection Details" src="../img/student/Quest1/create-automation-rule.png"  width="800">
