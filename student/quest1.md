@@ -33,7 +33,9 @@ Incident collection runs every 5 minutes, so you will be investigating another r
 <img alt="Connection Details" src="../img/student/Quest1/sentinel-main.png"  width="800">
 </p>
 
-Find your way to the [shared Sentinel instance](https://portal.azure.com/?feature.customportal=false#view/Microsoft_Azure_Security_Insights/MainMenuBlade/~/6/id/%2Fsubscriptions%2F29198fb7-1044-4412-8cab-a054d04cb6f5%2Fresourcegroups%2Frg-demo-eunorth%2Fproviders%2Fmicrosoft.securityinsightsarg%2Fsentinel%2Fsen-demo-eunorth-001) using your given M365 user and navigate to the **Incidents** tab. Adjust the filter to `last 7 days`. You should now see the incident with id `24` raised by the SAP System `Q01`. Click on the incident (View full details) to see the details and identify which SAP user and which transaction caused it.
+1. Find your way to the [shared Sentinel instance](https://portal.azure.com/?feature.customportal=false#view/Microsoft_Azure_Security_Insights/MainMenuBlade/~/6/id/%2Fsubscriptions%2F29198fb7-1044-4412-8cab-a054d04cb6f5%2Fresourcegroups%2Frg-demo-eunorth%2Fproviders%2Fmicrosoft.securityinsightsarg%2Fsentinel%2Fsen-demo-eunorth-001) using your given M365 user and navigate to the **Incidents** tab.
+
+2.Adjust the filter to `last 7 days`. You should now see the incident with id `24` raised by the SAP System `Q01`. Click on the incident (View full details) to see the details and identify which SAP user and which transaction caused it.
 
 > **Note**:
 > If you are getting a security error, make sure that you are in the right Azure Directory. Click on the your user symbol on the top right and click on `Switch directory`
@@ -50,17 +52,19 @@ Can you learn anything from the description, evidence, and the related entities?
 
 Can you find the latest update time for the SAP Audit Log?
 
-Open the Connectors page (Configuration -> Data Connectors), click on the `Microsoft Sentinel for SAP` connector, and navigate from `Open Connector Page`.
+3. Open the Connectors page (Configuration -> Data Connectors), click on the `Microsoft Sentinel for SAP` connector, and navigate from `Open Connector Page`.
 
-Continue to the watchlist section under Configuration, identify the relevant list to learn which transaction codes are currently considered sensitive. Use the button `View in Logs` to expand values.
+4. Continue to the watchlist section under Configuration, identify the relevant list to learn which transaction codes are currently considered sensitive. Use the button `View in Logs` to expand values.
 
-By now your own personal incident should have arrived. Navigate to it and select `Create Automation Rule`.
+By now your own personal incident should have arrived.
+
+5. Navigate to it and select `Create Automation Rule`.
 
 <p align="center" width="100%">
 <img alt="Connection Details" src="../img/student/Quest1/create-automation-rule.png"  width="800">
 </p>
 
-Choose your incident name, your account name (e.g. dsag01@M365B596876.onmicrosoft.com), and SID (Cloud App name) as condition for your rule. Finally add your playbook (or in other words Azure Logic App) under the "Actions" section. Your playbook has again your user name in the name.
+6. Choose your incident name, your account name (e.g. dsag01@M365B596876.onmicrosoft.com), and SID (Cloud App name) as condition for your rule. Finally add your playbook (or in other words Azure Logic App) under the "Actions" section. Your playbook has again your user name in the name.
 
 This way only your individual interactions will be pushed to your personal workflow and Teams Channel.
 
@@ -68,9 +72,7 @@ This way only your individual interactions will be pushed to your personal workf
 <img alt="Connection Details" src="../img/student/Quest1/assign-playbook.png"  width="800">
 </p>
 
-> **Note** - Above screenshot shows the base flow used to create your playbook copies to isolate your work environment on this shared tenant used for the hands-on exercises.
-
-Click apply.
+7. Click apply.
 
 ## Where to next?
 
