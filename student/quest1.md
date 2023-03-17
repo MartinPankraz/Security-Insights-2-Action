@@ -35,7 +35,7 @@ Incident collection runs every 5 minutes, so you will be investigating another r
 
 1. Find your way to the [shared Sentinel instance](https://portal.azure.com/?feature.customportal=false#view/Microsoft_Azure_Security_Insights/MainMenuBlade/~/6/id/%2Fsubscriptions%2F29198fb7-1044-4412-8cab-a054d04cb6f5%2Fresourcegroups%2Frg-demo-eunorth%2Fproviders%2Fmicrosoft.securityinsightsarg%2Fsentinel%2Fsen-demo-eunorth-001) using your given M365 user and navigate to the **Incidents** tab.
 
-2.Adjust the filter to `last 7 days`. You should now see the incident with id `24` raised by the SAP System `Q01`. Click on the incident (View full details) to see the details and identify which SAP user and which transaction caused it.
+2. Adjust the filter to `last 7 days`. You should now see the incident with id `24` raised by the SAP System `Q01`. Click on the incident (View full details) to see the details and identify which SAP user and which transaction caused it.
 
 > **Note**:
 > If you are getting a security error, make sure that you are in the right Azure Directory. Click on the your user symbol on the top right and click on `Switch directory`
