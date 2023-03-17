@@ -64,7 +64,7 @@ By now your own personal incident should have arrived.
 <img alt="Connection Details" src="../img/student/Quest1/create-automation-rule.png"  width="800">
 </p>
 
-6. Choose your incident name, your account name (e.g. dsag01@M365B596876.onmicrosoft.com), and SID (Cloud App name) as condition for your rule. Finally add your playbook (or in other words Azure Logic App) under the "Actions" section. Your playbook has again your user name in the name.
+6. Choose your incident name, your account name (e.g. dsag01@M365B596876.onmicrosoft.com), and SID (Cloud App name) as condition for your rule. Finally add your playbook (or in other words Azure Logic App) under the "Actions" section. Select the playbook which has again user name as part of the name.
 
 This way only your individual interactions will be pushed to your personal workflow and Teams Channel.
 
