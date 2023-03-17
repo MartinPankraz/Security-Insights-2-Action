@@ -7,7 +7,11 @@
 
 ## Introduction
 
-In this section we will raise an incident in Microsoft Sentinel by navigating to the "watched" transaction SE80 in SAP and investigate the incident details.
+In this section we will raise an incident in Microsoft Sentinel by navigating to the "watched" transaction SE80 in SAP and investigate the incident details. Familiarize yourself with the environment from the [Sentinel overview dashboard](https://portal.azure.com/#view/Microsoft_Azure_Security_Insights/MainMenuBlade/~/0/id/%2Fsubscriptions%2F29198fb7-1044-4412-8cab-a054d04cb6f5%2Fresourcegroups%2Frg-demo-eunorth%2Fproviders%2Fmicrosoft.securityinsightsarg%2Fsentinel%2Fsen-demo-eunorth-001).
+
+<p align="center" width="100%">
+<img alt="Sentinel Overview" src="../img/student/Quest1/overview.png"  width="800">
+</p>
 
 ## The path
 
@@ -20,6 +24,7 @@ Use the [SAP WebGUI<sup>1</sup>](https://51.137.42.4:44300/sap/bc/gui/sap/its/we
 Incident collection runs every 5 minutes, so you will be investigating another recent incident till your own personal one arrives to familiarize yourself with the process.
 
 > **Note**:
+>
 > <sup>1</sup> If you are familiar with the SAPGUI, you may connect using SID Q01, instance number 00, client 001 and app server IP 51.137.42.4 directly.
 
 > **Warning**: some participants had restrictive browser settings in the past prohibiting access to a SAP CAL instance via SAP WebGUI with self-signed certificates. In case you encounter access issues please reach out to your mentor and discuss alternatives. We may trigger the transaction on behalf of your user as a last resort.
@@ -33,7 +38,7 @@ Find your way to the [shared Sentinel instance](https://portal.azure.com/?featur
 > **Note**:
 > If you are getting a security error, make sure that you are in the right Azure Directory. Click on the your user symbol on the top right and click on `Switch directory`
 <p align="center" width="100%">
-<img alt="Switch Directory" src="../img/student/Quest1/SwitchDirectory.png"  width="800">
+<img alt="Switch Directory" src="../img/student/Quest1/SwitchDirectory.png"  width="600">
 </p>
 
 On the line with `Contoso (cloud.boban.co)` click on Switch and try again.
