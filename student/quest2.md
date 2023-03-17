@@ -25,7 +25,7 @@ In this section we will work with your playbook assigned to your "personal SAP i
 <img alt="Connection Details" src="../img/student/Quest2/run-playbook.png"  width="500">
 </p>
 
-5. Find the adaptive card posted to your Teams Channel and click on the `Lock SAP User` button.
+5. Find the adaptive card posted to your Teams Channel and click on the `Block User on...` button.
 
 > **Note** - Optionally see the [Outlook message](https://outlook.office.com/mail/) informing about and linking to the Microsoft Teams message.
 
