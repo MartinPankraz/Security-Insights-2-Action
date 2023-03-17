@@ -1,7 +1,5 @@
 # 🕵️ Security-Insights 2 Action with SOAR 🚀 - Automatic locking of users on suspicious activity in SAP systems
 
-🚧Under construction 🚧
-
 `Content supporting hands-on session 1 "Automatisches Sperren von Benutzern bei ungewöhnlichen Aktivitäten" @ DSAG Technology Days March 2023`
 
 Security incidents **affect every company** at some point. Given the threat landscape: It is **not** a question of **if but when**. According to [Statista 2022](https://www.statista.com/statistics/1275029/length-of-downtime-after-ransomware-attack/) the average downtime duration increases year over year and circles around 22 days currently. That is enough for some companies to suffer considerable damage or even go out of business. **SAP systems are a prime target** for cyber attackers.
@@ -21,6 +19,8 @@ Before you go: verify [prerequisites](PREREQUISITES.md) are met (backpack, lunch
 2. [Apprentice's curious road](student/quest2.md) - Understand the workflow and see the `SAP user blocking` in action
 3. [Debutant's journey](student/quest3.md) - Adjust the workflow blueprint to add the transaction code to the Microsoft Teams message
 4. [Master's trail](student/quest4.md) - Go all in and add Azure AD user locking
+
+🏆Finish the final quest, collect the pass phrase, and redeem it to [claim your badge](https://webhostingforconverter.z16.web.core.windows.net/claim-reward.html) 😎
 
 ## ✨Recommended courses and further learning
 
@@ -50,5 +50,5 @@ This repos encourages contributions and feedback via the [GitHub Issues](https:/
 - [Holger Bruchelt - Microsoft Engineering](https://www.linkedin.com/in/holger-bruchelt/)
 - [Martin Pankraz - Microsoft Engineering](https://www.linkedin.com/in/martin-pankraz/)
 - [Ofer Inbar - Microsoft Sentinel Engineering](https://www.linkedin.com/in/ofer-inbar/)
-- [Sebastian Ulrich - Microsoft Cloud Solution Architect](https://www.linkedin.com/in/sebastian-ullrich-677b36168/)
+- [Sebastian Ullrich - Microsoft Cloud Solution Architect](https://www.linkedin.com/in/sebastian-ullrich-677b36168/)
 - [Martin Steiner - Microsoft Security Cloud Solution Architect](https://www.linkedin.com/in/martin-steiner-28312b141/)
