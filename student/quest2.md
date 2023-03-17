@@ -43,6 +43,7 @@ In this section we will work with your playbook assigned to your "personal SAP i
 <img alt="Connection Details" src="../img/student/Quest2/locked-user.png"  width="300">
 </p>
 8. Make sure to unlock the user again by leveraging the unlock option via Teams mentioned above!
+9. </p>
 ## Where to next?
 
 [< Quest 1](quest1.md) - **[🏠Home](../README.md)** - [ Quest 3 >](quest3.md)
