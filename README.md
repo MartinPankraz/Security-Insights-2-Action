@@ -22,6 +22,8 @@ Before you go: verify [prerequisites](PREREQUISITES.md) are met (backpack, lunch
 
 🏆Finish the final quest, collect the pass phrase, and redeem it to [claim your badge](https://webhostingforconverter.z16.web.core.windows.net/claim-reward.html) 😎
 
+Get the slide deck from [here](https://aka.ms/dsagtt23-sentinel-slides).
+
 ## ✨Recommended courses and further learning
 
 ### Applied security science

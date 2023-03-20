@@ -46,7 +46,7 @@ Understand the workflow and see the `SAP user blocking` in action
 
 Adjust the workflow blueprint to add the transaction code to the Microsoft Teams message
 
-## [Quest 4](quest4.md): Master's trail
+## (optional) [Quest 4](quest4.md): Master's trail
 
 🌟
 🕒 10 mins

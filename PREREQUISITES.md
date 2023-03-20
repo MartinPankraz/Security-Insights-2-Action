@@ -2,17 +2,13 @@
 
 **[🏠Home](README.md)** - [ Quest 0 >](student/quest0.md)
 
-- Ensure availability of SAP system S/4HANA 2022 or higher (e.g. using [SAP CAL](https://cal.sap.com/) - Fully activated Appliance) with **static** IP address
+- Ensure availability of SAP NetWeaver system (e.g. using [SAP CAL](https://cal.sap.com/) - Fully activated Appliance) with **static** IP address
 - Access to Azure subscription with rights to deploy resources (consider [free sign-up](https://azure.microsoft.com/free/) for easy sandboxing, note: sign-up is gated by credit card but **no charges will occur**)
 - Access to Microsoft Teams and Office tenant (consider sign-up with [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) for easy sandboxing)
 
 > **Note** - have a look at [this document](RequestMS365Developer.pdf) for additional guidance for the M365 Dev Program sign-up process.
 
 ## Additional preparations (already done for a hosted Hands-On sessions)
-
-- Install the On-prem data Gateway with access to the SAP S/4HANA System. This is required to access RFC/BAPIs in the SAP system behind your firewall. In our case we have installed the required tools on the "Windows Remote Desktop" of the SAP S/4HANA 2022, Fully-Activated Appliance CAL system
-
-## Configuration on the Azure Subscription
 
 ### Create a new Azure Sentinel Workspace
 
