@@ -52,19 +52,19 @@ Can you learn anything from the description, evidence, and the related entities?
 
 Can you find the latest update time for the SAP Audit Log?
 
-3. Open the Connectors page (Configuration -> Data Connectors), click on the `Microsoft Sentinel for SAP` connector, and navigate from `Open Connector Page`.
+3. Open the Connectors page (Configuration -> Data Connectors), click on the `Microsoft Sentinel for SAP` connector, and navigate from `Open Connector Page`. To simplify the navigation, consider using either the search functionality or changing the status filter from All to Connected.
 
 4. Continue to the watchlist section under Configuration, identify the relevant list to learn which transaction codes are currently considered sensitive. Use the button `View in Logs` to expand values.
 
 By now your own personal incident should have arrived.
 
-5. Navigate to it and select `Create Automation Rule`.
+5. Navigate to it and select `Create Automation Rule` in the Actions dropdown.
 
 <p align="center" width="100%">
 <img alt="Connection Details" src="../img/student/Quest1/create-automation-rule.png"  width="800">
 </p>
 
-6. Choose your incident name, your account name (e.g. dsag01@M365B596876.onmicrosoft.com), and SID (Cloud App name) as condition for your rule. Finally add your playbook (or in other words Azure Logic App) under the "Actions" section. Your playbook has again your user name in the name.
+6. Choose your incident name, your account name (e.g. dsag01@M365B596876.onmicrosoft.com) as condition for your rule. Finally add your playbook (or in other words Azure Logic App) under the "Actions" section. Select the playbook which has again user name as part of the name.
 
 This way only your individual interactions will be pushed to your personal workflow and Teams Channel.
 

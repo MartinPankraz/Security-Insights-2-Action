@@ -22,6 +22,8 @@ In this section we will tailor the playbook to our needs and adjust the properti
 }
 ```
 
+> **Note** - Remember, that you need to add the third entity with a ",". Compare how the entity "title":"Tactics" is shown.
+
 Either trigger the Logic App again from the Incident like you did before or choose a past run from the Logic App history and click `resubmit`. That is a nice practice during integration development to avoid waiting for new incidents during design time.
 
 Your updated card on Teams should look like this:

@@ -11,7 +11,7 @@ In this section we will work with your playbook assigned to your "personal SAP i
 
 ## The path
 
-1. Navigate to the resource group [`dsag-participants`](https://portal.azure.com/#@cloud.boban.co/resource/subscriptions/29198fb7-1044-4412-8cab-a054d04cb6f5/resourceGroups/dsag-participants/overview) or choose [`Active Playbooks`](https://portal.azure.com/#view/Microsoft_Azure_Security_Insights/MainMenuBlade/~/Automation/id/%2Fsubscriptions%2F29198fb7-1044-4412-8cab-a054d04cb6f5%2Fresourcegroups%2Frg-demo-eunorth%2Fproviders%2Fmicrosoft.securityinsightsarg%2Fsentinel%2Fsen-demo-eunorth-001) from the Automation pane in Sentinel to find your Logic App (or in other words Sentinel playbook). The instance name contains your user name.
+1. Navigate to the resource group [`dsag-participants`](https://portal.azure.com/#@cloud.boban.co/resource/subscriptions/29198fb7-1044-4412-8cab-a054d04cb6f5/resourceGroups/dsag-participants/overview) or choose [`Active Playbooks`](https://portal.azure.com/#view/Microsoft_Azure_Security_Insights/MainMenuBlade/~/Automation/id/%2Fsubscriptions%2F29198fb7-1044-4412-8cab-a054d04cb6f5%2Fresourcegroups%2Frg-demo-eunorth%2Fproviders%2Fmicrosoft.securityinsightsarg%2Fsentinel%2Fsen-demo-eunorth-001) from the Automation pane in Sentinel to find your Logic App (or in other words Sentinel playbook). The instance name contains your user name (e.g. something like sap-user-block-DSAGXX). 
 
 2. Familiarize yourself with the playbook and its various steps. Are you able to identify how the SAP user lock request is submitted to SAP? What Teams Channel ID is being used?
 
@@ -25,7 +25,7 @@ In this section we will work with your playbook assigned to your "personal SAP i
 <img alt="Connection Details" src="../img/student/Quest2/run-playbook.png"  width="500">
 </p>
 
-5. Find the adaptive card posted to your Teams Channel and click on the `Lock SAP User` button.
+5. Find the adaptive card posted to your Teams Channel and click on the `Block User on...` button.
 
 > **Note** - Optionally see the [Outlook message](https://outlook.office.com/mail/) informing about and linking to the Microsoft Teams message.
 
@@ -42,6 +42,7 @@ In this section we will work with your playbook assigned to your "personal SAP i
 <p align="center" width="100%">
 <img alt="Connection Details" src="../img/student/Quest2/locked-user.png"  width="300">
 </p>
+8. Make sure to unlock the user again by leveraging the unlock option via Teams mentioned above!
 
 ## Where to next?
 
